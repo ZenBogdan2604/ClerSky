@@ -48,7 +48,6 @@ a{
     align-items: center;
     gap: 24px;
 }
-
 .first-section{
     background-color: #163A24;
     height: 70vh;
@@ -57,7 +56,6 @@ a{
     background-size: contain;
     background-position: 80vh;
 }
-
 .first-section_text-block{
     position: relative;
     color: #FBFAF7;
@@ -65,7 +63,6 @@ a{
     top: 100px;
     line-height: 1.7;
 }
-
 .section_title{
     font-size: 48px;
     font-family: 'Recoleta', sans-serif;
@@ -76,4 +73,65 @@ a{
 }
 
 
-
+.second-section_container{
+    max-width: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.second-section{
+    margin-top: 100px;
+}
+.second-section_text-img-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-section_text-block{
+    width: 400px;
+}
+.second-section_title{
+    font-size: 48px;
+    font-family: 'Recoleta', sans-serif;
+    font-weight: bold;
+    color: #163A24;
+}
+.second-secction_sub-title{
+    font-size: 18px;
+}
+.second-section_img{
+    width: 400px;
+}
+.second-section_logo-block{
+    margin-top: 80px;
+    text-align: center;
+}
+.second-section_logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+.second-section_logo-in-block{
+    width: 100px;
+    height: 48px;
+}
+.second-section_logo-google{
+    margin-top: 10px;
+    width: 90px;
+    height: 34px;
+}
+.second-section_logo-notion{
+    margin-bottom: 5px;
+    width: 100px;
+    height: 55px;
+}
+.second-section_logo-gusto{
+    margin-top: 5px;
+    width: 90px;
+    height: 45px;
+}
+.second-section_logo-aircall{
+    margin-top: 5px;
+    width: 100px;
+    height: 45px;
+}
